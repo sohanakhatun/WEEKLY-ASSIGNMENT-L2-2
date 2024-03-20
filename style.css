@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  width: 100%;
+  padding: 5px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 3rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.btn {
+  padding: 12px 23px;
+  border: none;
+  border-radius: 23px;
+  background-color: black;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar-links {
+  font-family: "Poppins", sans-serif;
+}
+
+.slider-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+}
+
+.text-side {
+  width: 50%;
+  height: inherit;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 6rem;
+  margin-top: 5rem;
+}
+
+
+.text-side .sofia-font {
+  font-family: "Sofia Sans", sans-serif;
+  color: #ffffff;
+  font-size: 40px;
+}
+
+.text-side p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-top: 40px;
+}
+
+.text-side .price {
+  color: white;
+  font-size: 55px;
+}
+
+.text-side .icons {
+  display: flex;
+  flex-direction: row;
+  gap: 13px;
+  align-items: center;
+}
+
+.icons .icons-item {
+  width: 60px;
+  text-align: center;
+  border: 2px solid white;
+  padding: 13px;
+  border-radius: 50%;
+}
+
+.icons-item:hover {
+  cursor: pointer;
+}
+
+.image-side {
+  display: flex;
+  align-items: center;
+}
+
+.image-side .btn {
+  height: 20px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: initial;
+
+  padding: 16px;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  flex: 0 0 100%;
+}
+
+.slide img {
+  width: 100%;
+}
+
+.navigation {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+}
+
+.navigation .btn {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.slider-container {
+  height: 100vh;
+}
+
+.watch-img {
+  animation: fadeinout 4s;
+}
+
+@keyframes fadeinout {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+}
