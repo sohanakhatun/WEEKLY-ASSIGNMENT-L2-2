@@ -18,9 +18,9 @@ document.addEventListener("DOMContentLoaded", function () {
         image: "assets/Watches.png",
         ambient_colors: ["#F4A764", "#FFDEC2"],
         icons: [
-          "assets/Vector (1).png",
-          "assets/youtube.png",
           "assets/Vector.png",
+          "assets/youtube.png",
+          "assets/Vector (1).png",
         ],
       },
       {
@@ -32,9 +32,9 @@ document.addEventListener("DOMContentLoaded", function () {
         image: "assets/Watches (1).png",
         ambient_colors: ["#ADB0B0", "#E1E1E1"],
         icons: [
-          "assets/Vector (1).png",
-          "assets/youtube.png",
           "assets/Vector.png",
+          "assets/youtube.png",
+          "assets/Vector (1).png",
         ],
       },
       {
@@ -46,9 +46,9 @@ document.addEventListener("DOMContentLoaded", function () {
         image: "assets/Watches (2).png",
         ambient_colors: ["#30A357", "#75E39A"],
         icons: [
-          "assets/Vector (1).png",
-          "assets/youtube.png",
           "assets/Vector.png",
+          "assets/youtube.png",
+          "assets/Vector (1).png",
         ],
       },
       {
@@ -61,8 +61,8 @@ document.addEventListener("DOMContentLoaded", function () {
         ambient_colors: ["#F24F4F", "#FFA895"],
         icons: [
           "assets/Vector.png",
-          "assets/Vector (1).png",
           "assets/youtube.png",
+          "assets/Vector (1).png",
         ],
       },
     ],
