@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
         text1: "Exquisite Watches",
         text2: "Gold Luxury, Choose Us",
         desc: "Discover the Perfect Watch for Every Occasion and Elevate Your Style with Timeless Elegance and Precision Craftsmanship - watch",
-        price: "$499.00",
+        price: "$499.99",
         image: "assets/Watches.png",
         ambient_colors: ["#F4A764", "#FFDEC2"],
         icons: [
@@ -74,10 +74,6 @@ document.addEventListener("DOMContentLoaded", function () {
     body.style.background = gradient;
   }
 
-  function updateNavbar() {
-    const currentData = jsonData.carousel[currentIndex];
-  }
-
   function updateTextSide() {
     const currentData = jsonData.carousel[currentIndex];
     let text = currentData.text2;
@@ -117,7 +113,7 @@ document.addEventListener("DOMContentLoaded", function () {
     currentIndex =
       currentIndex === 0 ? jsonData.carousel.length - 1 : currentIndex - 1;
     updateSlider();
-    updateNavbar();
+
     updateTextSide();
     updateBackgroundGradient();
   }
@@ -126,7 +122,7 @@ document.addEventListener("DOMContentLoaded", function () {
     currentIndex =
       currentIndex === jsonData.carousel.length - 1 ? 0 : currentIndex + 1;
     updateSlider();
-    updateNavbar();
+
     updateTextSide();
     updateBackgroundGradient();
   }
@@ -135,7 +131,7 @@ document.addEventListener("DOMContentLoaded", function () {
   nextBtn.addEventListener("click", showNextSlide);
 
   updateBackgroundGradient();
-  updateNavbar();
+
   updateTextSide();
   updateSlider();
 });
