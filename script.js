@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
         text1: "Exquisite Watches",
         text2: "Gold Luxury, Choose Us",
         desc: "Discover the Perfect Watch for Every Occasion and Elevate Your Style with Timeless Elegance and Precision Craftsmanship - watch",
-        price: "$499.99",
+        price: "$499.00",
         image: "assets/Watches.png",
         ambient_colors: ["#F4A764", "#FFDEC2"],
         icons: [
