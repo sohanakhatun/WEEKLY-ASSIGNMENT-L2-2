@@ -7,9 +7,6 @@ Initialize variables: - currentIndex = 0
         - updateBackgroundGradient():
             Update body background gradient based on current item's ambient colors
 
-        - updateNavbar():
-            Update navbar background gradient based on current item's ambient colors
-
         - updateTextSide():
             Update text side content and background gradient based on current item's text and ambient colors
 
@@ -26,15 +23,13 @@ Initialize variables: - currentIndex = 0
         - On click of previous button, call showPrevSlide()
         - On click of next button, call showNextSlide()
 
-    Call updateBackgroundGradient(), updateNavbar(), updateTextSide(), and updateSlider() to initialize the UI
+    Call updateBackgroundGradient(), updateTextSide(), and updateSlider() to initialize the UI
 
 Function updateBackgroundGradient():
 Get current item from carousel data using currentIndex
 Create gradient string based on current item's ambient colors
 Update body background style with the gradient
 
-Function updateNavbar():
-Get current item from carousel data using currentIndex
 
 Function updateTextSide():
 Retrieve current data from the carousel JSON using the currentIndex
@@ -71,11 +66,11 @@ Clear the HTML content of the slider container by setting its innerHTML to an em
 
 Function showPrevSlide():
 Decrement currentIndex to move to previous item in the carousel
-Call updateNavbar(), updateTextSide(), and updateSlider() to update UI
+Call  updateTextSide(), and updateSlider() to update UI
 
 Function showNextSlide():
 Increment currentIndex to move to next item in the carousel
-Call updateNavbar(), updateTextSide(), and updateSlider() to update UI
+Call  updateTextSide(), and updateSlider() to update UI
 
 When the DOM content is fully loaded:
 Find the image element with the class "watch-img"
